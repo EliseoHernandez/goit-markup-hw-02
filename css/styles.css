@@ -69,6 +69,7 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+
 #links-top{
     list-style: none;    
 }
@@ -83,7 +84,9 @@ a:link, a:visited, a:active {
 
 
 
-#main {}
+#main {
+    background-color: #2F303A;
+}
 
 #first-section{}
 
@@ -93,6 +96,10 @@ a:link, a:visited, a:active {
 
 #footer :hover{
     color: #2196f3;
+}
+#footer {
+
+    background-color:  #2F303A;
 }
 
 #address {
@@ -160,3 +167,12 @@ a:link, a:visited, a:active {
     cursor: pointer;
 }
 
+.buttons {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.buttons :hover{
+    background-color: #2196F3;
+}
