@@ -58,7 +58,7 @@ color: #757575;
 
 
 #body {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 
     font-family: 'Roboto'; 'sans-serif';
 
@@ -85,14 +85,17 @@ a:link, a:visited, a:active {
 
 
 #main {
-    background-color: #2F303A;
+    background-color:#2F303A;
+    ;
 }
 
 #first-section{}
 
 #second {}
 
-#third {}
+#third {
+    background-color: #F5F4FA;
+}
 
 #footer :hover{
     color: #2196f3;
@@ -105,6 +108,7 @@ a:link, a:visited, a:active {
 #address {
     color: #FFFFFF;
 }
+
 
 
 .title-1 {
@@ -168,11 +172,13 @@ a:link, a:visited, a:active {
 }
 
 .buttons {
-    background-color: #F5F4FA;
-    border-radius: 4px;
+    outline-style: none;
+
+    border: none;
 
 }
+.buttons:hover {
+    color:#FFFFFF;
 
-.buttons :hover{
     background-color: #2196F3;
 }
