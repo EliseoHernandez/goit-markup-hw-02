@@ -57,7 +57,7 @@ color: #757575;
 }
 
 
-#body {
+body {
     background-color: #FFFFFF;
 
     font-family: 'Roboto'; 'sans-serif';
@@ -65,13 +65,15 @@ color: #757575;
     color: #000000;
 }
 
+
 a:link, a:visited, a:active {
     text-decoration: none;
 }
 
 
 #links-top{
-    list-style: none;    
+    list-style: none;
+       
 }
 
 #links-top :hover{
